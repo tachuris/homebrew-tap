@@ -1,28 +1,28 @@
 class Fresnel < Formula
   desc "Personal productivity app for tracking recurring practices and tasks"
   homepage "https://github.com/tachuris/fresnel"
-  version "0.0.15"
+  version "0.0.16"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tachuris/homebrew-tap/releases/download/fresnel-v0.0.15/fresnel-darwin-arm64"
-      sha256 "83976dd2212d06701b488c6074df052d421001827689bf4c03c9ae7e0d532adc"
+      url "https://github.com/tachuris/homebrew-tap/releases/download/fresnel-v0.0.16/fresnel-darwin-arm64"
+      sha256 "c934e01c95b0f2ad9abdf515142f7ca8f72255c9f17ecf21f6ad93b8ec7560d2"
     end
     on_intel do
-      url "https://github.com/tachuris/homebrew-tap/releases/download/fresnel-v0.0.15/fresnel-darwin-x64"
-      sha256 "00fcd5d91c66a554a019eaec87d7953c048523a85941fd359c791d7bdfc1a781"
+      url "https://github.com/tachuris/homebrew-tap/releases/download/fresnel-v0.0.16/fresnel-darwin-x64"
+      sha256 "ac1244de4560eb87ed4798c27e31368b439783bee0e5297da46db47073e80baa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tachuris/homebrew-tap/releases/download/fresnel-v0.0.15/fresnel-linux-arm64"
-      sha256 "40bbcb28764279f71639e0ffda55ddedcb4abc2af346b0f022a7eb3b80395f50"
+      url "https://github.com/tachuris/homebrew-tap/releases/download/fresnel-v0.0.16/fresnel-linux-arm64"
+      sha256 "23f4df8512e29e63990c2f3a308e38c403ca68deb259533409ffe521b2e679bd"
     end
     on_intel do
-      url "https://github.com/tachuris/homebrew-tap/releases/download/fresnel-v0.0.15/fresnel-linux-x64"
-      sha256 "a6c32642649ef20f1321065d7b19414031cb86bd5cb96cba94c22e00d9a84c24"
+      url "https://github.com/tachuris/homebrew-tap/releases/download/fresnel-v0.0.16/fresnel-linux-x64"
+      sha256 "34a04053692b5c53f3599f4d4d5686b83113668f2c73da2eda0b15683c0a1b6f"
     end
   end
 
